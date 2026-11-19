@@ -1,4 +1,4 @@
-# StockFlow backend workspace
+ # StockFlow backend workspace
 
 FastAPI backend for products, stores, inventory balances, stock movements, and activity history. See `../docs/architecture/` for the design and `../docs/reports/CHUNK_1_BACKEND_FOUNDATION.md` for implementation details.
 
