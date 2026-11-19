@@ -1,0 +1,10 @@
+{
+  "description": "A simple web app offering a clear, focused experience for users seeking quick access to essential information and tools.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

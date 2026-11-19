@@ -1,0 +1,1 @@
+{"buildCommand":"cd frontend && corepack pnpm install --frozen-lockfile && corepack pnpm run build","outputDirectory":"frontend/dist","rewrites":[{"source":"/(.*)","destination":"/index.html"}]}

@@ -1,0 +1,28 @@
+[project]
+name = "stockflow-backend"
+version = "0.1.0"
+description = "StockFlow inventory management API"
+requires-python = ">=3.13,<3.16"
+dependencies = [
+  "fastapi==0.165.0",
+  "pydantic==2.14.4",
+  "pydantic-settings==2.16.3",
+  "sqlalchemy==2.1.9",
+  "psycopg[binary]==3.3.9",
+  "alembic==1.20.1",
+  "uvicorn==0.54.0",
+  "python-dotenv==1.2.4",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest==9.2.0",
+  "httpx2==2.16.2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
